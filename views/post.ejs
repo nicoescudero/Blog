@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/public/style.css">
+    <title>My Blog</title>
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar">
+                <a href="/" class="link-nav">My Blog</a>
+            <div class="options">
+                <a href="/whoami" class="link-nav">Whoami</a>
+                <a href="/social-medias" class="link-nav">Social Media</a>
+            </div>
+        </nav>
+        <main class='main main-post' id='main'>
+            <mi class="mi">
+                <%= markdown %>
+            </mi>
+        </main>
+    </div>
+    <script src="/public/scripts/insert.js"></script>
+</body>
+</html>

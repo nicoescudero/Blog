@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;    
+}
+body{
+    font-family: 'Outfit', sans-serif;
+    background: #141E30;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.container{
+    margin: auto;
+    width: 80%;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+}
+.navbar{
+    background:hsla(129, 47%, 3%, 0.735);
+    width: 70%;
+    height: 40px;
+    margin:auto;
+    display:flex;
+    flex-direction: row;
+    margin-bottom: 3%;
+    justify-content: space-around;
+    align-items: center;
+}
+.link-nav{
+    text-decoration: none;
+    color:aquamarine;
+    padding: 3px;
+}
+.link-nav:hover{
+    border: 1px solid gray;
+    border-radius: 1px;
+    transition: 0.9s;
+}
+.link-button{
+    background:inherit;
+    color:aquamarine;
+    cursor: pointer;
+    border: none;
+    margin: 1% auto;
+    width:40%;
+    height: 30px;
+    border: 1px solid hsla(129, 47%, 3%, 0.735);
+    border-radius: 1px;
+    text-align-last: center;
+    text-decoration: none;
+}
+.link-button:hover{
+    background-color:rgba(72, 72, 72, 0.687);
+    font-weight: bold;
+}
+.lp{
+    color:white;
+    font-weight: lighter;
+    margin:auto;
+}
+.main-post{
+    margin:auto;
+    width:70%;
+    align-items:center;
+    color:white;
+}
+.main-post>h1{
+    color:aquamarine;
+    text-transform: uppercase;
+}
+.main-post>h1,.main-post>h2,.main-post>h3,.main-post>h4,.main-post>h5,.main-post>code{
+    margin:1%;
+}
+.main>img{
+    width: 400px;
+    border: 4px solid orangered;
+}
+img{
+    margin:2%;
+    max-height: 100%;
+    max-width: 100%;
+}
+.javascript{
+    color:greenyellow;
+}
+.contain{
+    display:flex;
+    flex-direction:row;
+    margin:auto;
+    justify-content:center;
+    text-align:center;
+}
+.link-social{
+    width: 32px;
+    height: 32px;
+    margin: 5%;
+}
+.img-icon{
+    width: 32px;
+    height: 32px;
+}
