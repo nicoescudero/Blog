@@ -1,6 +1,6 @@
 # How to create a blog 
 
-In this post you will create a **post**
+In this post you will learn how to create a **blog**
 
 ![](/public/uploads/photo.jpg "Backend developer")
 
