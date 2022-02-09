@@ -3,7 +3,6 @@ const path = require('path');
 const morgan=require('morgan');
 const helmet=require('helmet');
 const app=express();
-require('dotenv').config();
 app.use(express.json());
 app.use(express.urlencoded({extended:false}));
 app.set('port',process.env.PORT || 3000);
